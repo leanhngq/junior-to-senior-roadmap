@@ -11,6 +11,7 @@
 		+ minimize text
 		+ minimize images
 	- The travelling deliveryman:
+		+ Less trips
 		
 34. Image File Formats
 	- JPG / JPEG - Join Photographic Expers Group:
