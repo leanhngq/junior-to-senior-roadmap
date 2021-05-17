@@ -1,0 +1,58 @@
+32. 3 keys to performance
+	- client side
+	- nerwork latency
+	- backend processing
+
+33. Network Performance
+	- 2 main factors:
+		+ Honey I shrunk the files
+		+ The traveling deliveryman
+	- Honey I shrunk the files:
+		+ minimize text
+		+ minimize images
+	- The travelling deliveryman:
+		
+34. Image File Formats
+	- JPG / JPEG - Join Photographic Expers Group:
+		+ takes up very little storage space -> is quick to upload or download
+		+ can support millions of colors -> is ideal for real-life images (photographs); works well on websites -> is best choice when posting on social media channels
+		+ is "lossy" (when the data is compressed, unnecessary information is deleted from the file permanently) -> some quality will be lost or compromised when any file is converted to a JPG
+		+ is the default file format for uploading pictures to the web, unless they need transparency, have text in them, are animated, or would benefit from color changes (like logos or icons)
+		===> for uploading vacation pictures to Facebook, ...
+		
+	- GIF - Graphics Interchange Format:
+		+ is to take the pain out of sending images to or from slow connections, or low bandwidth
+		+ is "lossless" (a GIF retains all the data contained in the file, but they are smaller than JPGs, specifically because they only accommodate up to 256 indexed colors)
+		+ can be animated with no audio associated
+		===> for making short, hilarious animation from favourite movie scene
+
+	- PNG - Portable Network Graphics
+		+ PNG-8 is similar to GIF in that it supports 256 indexed colors, as well as transparency
+		+ PNG-24, like JPGs, can support up to 16 million colors
+		+ are most often used for static images, like a JPG would, however they can support animation
+		+ is lossless
+		+ is ideal for detailed graphics, or files that are still being edited.
+		+ is the only raster format that supports transparency
+		===> for high quality images, detailed icons or need to preserve transparency
+
+	- SVG - Scalable Vector Graphics: 
+		+ is a vector image file format
+		+ is drawn from mathematically declared shapes and curves, not pixels -> unlike rester formats seen in JPG, GIF, PNG, an SVG image remains crisp and clear at any resolution or size
+		+ can be animated
+		+ supports transparency and any combinations of colors or gradients
+		+ is lossless file format, thends to be fairly large files
+		===> ideal for high quality images and can be scaled to any size
+
+36. Image Optimizations
+	- If you want transparency: use a PNG
+	- If you want animations: use a GIF
+	- If you want colourful images: use a JPG
+	- If you want a simple icons, logos, and illustrations, use SVGs
+	- Reduce PNG with TinyPNG
+	- Reduce JPG with JPEG-optimizer
+	- Try to choose simple illustrations over highly detailed photographs
+	- Always lower JPEG image quality (30-60%)
+	- Resize image based on size it will be displayed
+	- Display different sized images for different backgrounds
+	- Use CDNs like imgx
+	- Remove image metadata
