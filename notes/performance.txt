@@ -57,3 +57,13 @@
 	- Display different sized images for different backgrounds
 	- Use CDNs like imgx
 	- Remove image metadata
+
+43. Critical render path
+	- In order to render content the browser has to go through a series of steps:
+		1. Document Object Model (DOM)
+		2. CSS object model (CSSOM)
+		3. Render Tree
+		4. Layout
+		5. Paint
+	- How would we optimize this?
+		https://medium.com/@luisvieira_gmr/understanding-the-critical-rendering-path-rendering-pages-in-1-second-735c6e45b47a
